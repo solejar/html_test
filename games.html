@@ -2,13 +2,25 @@
 <html>
 <head>
 	<title>Some assorted games</title>
+	<script src="scripts/hello.js" type="text/javascript"/></script>
 </head>
 <body>
 	<h2 align="center">This is where the games will go!</h2>
+
 	<form>
 		Username: <input type="text" name="username"/>
 		<br>
 		Password: <input type="password" name="password"/>
+		<br>
+		<input type="radio" name="yes" value="yes"/>Yes, I want to play
+		<input type="radio" name="no" value="no"/>No, I don't want to play
+		<br>
+		<input type="file" name="fileupload" accept="text/plain"/>
 	</form>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/DiCGkzwW_S8" frameborder="0" allowfullscreen align="center"></iframe>
+	<br>
+	<input type="button" onclick="hello();" name="testbutton" value="Say Hi!"/>
+	<p onclick="hello2();">This is an example of Javascripting!</p>
 </body>
 </html>
